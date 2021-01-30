@@ -33,7 +33,7 @@ public class PreviousTab
 		robot.keyRelease(KeyEvent.VK_T);
 		WebElement sydney= driver.findElement(By.xpath("//*[@id='hdtb-msb-vis']/div[2]/a"));
 		sydney.click();
-
+		This is additional code added 30-01-2021
 		/*System.setProperty("webdriver.chrome.driver", "D:\\SELVA\\SELENIUM\\Downloads\\chromedriver86\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -48,6 +48,6 @@ public class PreviousTab
 		robot.keyPress(KeyEvent.VK_CONTROL); // with robot class you can easily achieve anything if you know the shortcut keys
 		robot.keyPress(KeyEvent.VK_2); // here, we have just pressed ctrl+2
 		robot.keyRelease(KeyEvent.VK_CONTROL); // once we press and release ctrl+2, it will go to the second tab.
-		robot.keyRelease(KeyEvent.VK_2); //if you again want to go back to first tab press and release vk_1
+		robot.keyRelease(KeyEvent.VK_2); //if you again want to go back to first tab press and release vk_1		
 */	}
 }
