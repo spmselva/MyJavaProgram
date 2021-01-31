@@ -34,7 +34,7 @@ public class PreviousTab
 		WebElement sydney= driver.findElement(By.xpath("//*[@id='hdtb-msb-vis']/div[2]/a"));
 		sydney.click();
 		This is additional code added 30-01-2021
-		This is Fork example code
+		This is Fork example
 		/*System.setProperty("webdriver.chrome.driver", "D:\\SELVA\\SELENIUM\\Downloads\\chromedriver86\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
